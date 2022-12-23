@@ -83,3 +83,7 @@ body {
   font-weight: 400;
   color: #ff465a;
 }
+
+#search-btn:active {
+  background-color: #092379;
+}
