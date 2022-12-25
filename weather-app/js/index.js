@@ -1,10 +1,6 @@
 const API = "bb88a0ffc7eea11fe67721c822a5f94a";
 const URL = `https://api.openweathermap.org/data/2.5/weather?appid=${API}&units=metric&`;
 
-const addZero = (time) => {
-  return time.length == 7 ? "0" + time : time;
-};
-
 let seacrh_city = document.querySelector(".seacrh-box");
 let city = document.querySelector(".city");
 let weather = document.querySelector(".weather");
